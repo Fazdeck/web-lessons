@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="rel="preconnect href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Семантичні теги HTML</title>
 </head>
 <body>
-    <header>
-        <img src="img/my_photo.png" title="Моє фото" alt="Моє фото" height="200px">
+    <header class="header">
+        <img src="img/my_photo.png" title="Моє фото" alt="Моє фото" height="160">
 
         <div>
-            <h1>Швець-Кулішевський Ілля Олегович</h1>
+            <h1 class="header_name">Швець-Кулішевський Ілля Олегович</h1>
         </div>
         <div>
-            <h2>Звіт з дисципліни "WEB-дизайн"</h2>
+            <h2 class="header_title">Звіт з дисципліни "WEB-дизайн"</h2>
         </div>
     </header>
-    <hr>
-            <article>
-                <h3>Про мене</h3>
 
-                <p>Я – Швець-Кулішевський Ілля Олегович, народився 30 липня 2000 р. в м.Киїєві</p>
-                <p>2008р – пішов в Середню загальноосвітню школу №6 в м.Киів</p>
-                <p>2018р – закінчив Середню загальноосвітню школу №6 і посупив у Коледж морського та річкового флоту у м.Киів
+    <main class="content">
+            <article class="article">
+                <h3 class="article_title">Про мене</h3>
+
+                <p class="article_text">Я – Швець-Кулішевський Ілля Олегович, народився 30 липня 2000 р. в м.Киїєві</p>
+                <p class="article_text">2008р – пішов в Середню загальноосвітню школу №6 в м.Киів</p>
+                <p class="article_text">2018р – закінчив Середню загальноосвітню школу №6 і посупив у Коледж морського та річкового флоту у м.Киів
                 на спеціальність "Інженерія програмного забеспечення"</p>
-                <p>Зараз навчаюсь на III-курсі у Коледжі морського та річкового флоту, за тією ж спеціалністью</p>
+                <p class="article_text">Зараз навчаюсь на III-курсі у Коледжі морського та річкового флоту, за тією ж спеціалністью</p>
             </article>
-    <hr>
-                <article>
-                    <h3>Конспекти за темами:</h3>
+         
+
+                <article class="article">
+                    <h3 class="article_title">Конспекти за темами:</h3>
                     <ul>
                         <li><a href="#">HTML</a></li>
                         <li><a href="#">CSS</a></li>
@@ -36,24 +42,27 @@
                         <li><a href="#">JavaScript</a></li>
                     </ul>
             </article>
-    <hr>
-                <article>
-                    <h3>Лабараторні работи:</h3>
+
+                <article class="article">
+                    <h3 class="article_title">Лабараторні работи:</h3>
                 
                     <ol>
-                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/text.txt">Налаштування Git та GitHub</a></li>
-                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/01/index.html">Створення найпростішого HTML документу</a></li>
-                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/02/index.html">Використання основних тегів HTML</a></li>
+                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/text.txt" class="ref">Налаштування Git та GitHub</a></li>
+                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/01/index.html" class="ref">Створення найпростішого HTML документу</a></li>
+                        <li><a href="https://github.com/Fazdeck/web-lessons/blob/master/02/index.html" class="ref">Використання основних тегів HTML</a></li>
                     </ol>
             </article>
-        <hr>
-            <footer>
-                    <h3>Контакти:</h3>
+        </main>
+            <footer class="footer">
+                <address>
+                    <h3 class="article_title">Контакти:</h3>
                     <ul>
                         <li><a href="tel:+380666502310">+380666502310</a></li>
                         <li><a href="mailto:shvets.illia@kmrf.kiev.ua">shvets.illia@kmrf.kiev.ua</a></li>
                         <li><a href="https://github.com/Fazdeck/web-lessons">Мій репозиторій на GitHub</a></li>
                     </ul>
+                </address>
             </footer>
+            <p class="copyright">Copyright &copy; Швець-Кулішевський І.О 2021</p>
 </body>
 </html>
