@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+    <script>
+        let num1 = prompt( "Введіть перше число: ");
+        if (num1 == null){
+            process.exit();
+        }
+        let num2 = prompt( "Введіть друге число: ");
+        if (num2 == null){
+            process.exit();
+        }
+        let operation = prompt ("Введіть операцію: ");
+        if (operation == null){
+            process.exit();
+        }
+        let result;
+        switch (operation){
+            case "+": result = num1 +num2; break;
+            case "-": result = num1 +num2; break;
+            case "*": result = num1 +num2; break;
+            case "/": 
+            if (num2 == 0){
+                alert("Поділити на нуль неможливо!");
+                result != num1 / num2;
+                break;
+            } else {
+                result = num1 / num2;
+                break;
+            } 
+            default: alert("Помилка! Введіть операцію ще раз!"); break;
+        } 
+        
+        alert( `${num1} ${operation} ${num2} = ${result}`)
+
+    </script>
+</body>
+</html>
