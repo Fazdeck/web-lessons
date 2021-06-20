@@ -1,0 +1,12 @@
+body{
+    background-image: url(giphy.gif);
+    background-size: 100%;
+    position: center center;
+}
+div{
+    background-image: url(giphy2.gif);
+    width: 480px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
