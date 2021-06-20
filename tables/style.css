@@ -1,0 +1,25 @@
+*{
+    font-size: 20px;
+}
+.box {
+background-color: lightgray;
+width: 443px;
+border-radius: 10px;
+}
+caption {
+color: green;
+padding: 10px;
+font-size: 20px;
+}
+tr {
+text-align: center;
+color: gray;
+}
+.borders th {
+border-top: 2px solid green;
+border-bottom: 2px solid green;
+}
+th {
+padding: 5px;
+color: gray;
+}
