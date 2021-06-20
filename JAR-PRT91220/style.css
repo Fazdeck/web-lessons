@@ -1,3 +1,8 @@
+*{
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+}
 body{
     background-image: url(giphy.gif);
     background-size: 100%;
@@ -9,4 +14,11 @@ div{
     height: 450px;
     margin-top: 100px;
     margin-left: 450px;
+}
+li{
+    text-align: left;
+    color: wheat;
+}
+p{
+    text-decoration: none;
 }
