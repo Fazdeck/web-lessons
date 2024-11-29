@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My work cost is 5k Shekels</title>
+</head>
+<style>
+    .required{
+        color: red;
+    }
+    fieldset{
+        width: 500px;
+    }
+    div{
+        margin: 5px;
+    }
+</style>
+<body>
+    <form action="#" method="POST">
+        <label for="name">Login</label>
+        <input type="text" name="login" id="name" placeholder="Enter login" disabled>
+        <label for="">Password <input type="password" name="password" placeholder="Enter password"></label>
+        
+        <input type="date" name="birth">
+        <input type="number" name="count">
+        <input type="color" name="bruh">
+        <input type="range" name="range">
+        <input type="email" name="email">
+        <input type="reset" name="reset" value="Очистити">
+        <input type="submit" name="send" value="Відправити" disabled>
+
+    </form>
+    <hr>
+    <form action="#">
+        <textarea name="Comment" id="Comment" cols="30" rows="5">
+
+        </textarea>
+        <input type="reset" name="reset" value="Очистити">
+        <input type="submit" name="send" value="Відправити">
+    </form>
+    <hr>
+    <form action="#">
+        <input type="radio" name="day" value="1"> Monday
+        <input type="radio" name="day" value="2"> Tuesday
+        <input type="radio" name="day" value="3" checked> Wednesday
+        <input type="radio" name="day" value="4"> Thursday
+        <input type="radio" name="day" value="5"> Friday
+        <input type="radio" name="day" value="6"> Saturday
+        <input type="radio" name="day" value="7"> Sunday
+        <input type="radio" name="month" value="03" checked> March
+        <input type="radio" name="month" value="04"> April
+        <input type="reset" name="reset" value="Очистити">
+        <input type="submit" name="send" value="Відправити">
+    </form>
+    <hr>
+    <form action="#">
+        <label for=""><input type="checkbox" name="day" value="1"> Monday</label>
+        <label for=""><input type="checkbox" name="day" value="2" checked> Tuesday</label>
+        <label for=""><input type="checkbox" name="day" value="3"> Wednesday</label>
+        <label for=""><input type="checkbox" name="day" value="4" checked> Thursday</label>
+        <label for=""><input type="checkbox" name="day" value="5"> Friday</label>
+        <label for=""><input type="checkbox" name="day" value="6"> Saturday</label>
+        <label for=""><input type="checkbox" name="day" value="7"> Sunday</label>
+        <input type="reset" name="reset" value="Очистити">
+        <input type="submit" name="send" value="Відправити">
+    </form>
+    <hr>
+    <form action="#">
+        <input type="text" name="login"><button>Відправити <strong>форму</strong></button>
+        <input type="submit" name="send" value="Send">
+        <input type="hidden" name="form" value="form=ok">
+    </form>
+    <hr>
+    <form action="#">
+        <select name="day" id="">
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+            <option value="7">Sunday</option>
+        </select>
+        <input type="submit" name="send" value="Send">
+    </form>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>Reg</legend>
+            <input type="submit" name="send" value="Відправити" disabled>
+        <div>
+            <label>Lastname<span class="required">*</span><input type="text" name="lastname" placeholder="Enter Lastname"></label>
+        </div>
+        <div>
+            <label>Name<span class="required">*</span><input type="text" name="name" placeholder="Enter Name"></label>
+        </div>
+        <div>
+            <label>Tel.<span class="required">*</span><input type="tel" placeholder="Enter phone number"></label>
+        </div>
+        
+    </fieldset>
+    </form>
+</body>
+</html>
